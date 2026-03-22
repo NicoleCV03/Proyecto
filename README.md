@@ -7,6 +7,8 @@ Motivación:
 Este proyecto surge de la necesidad de organizar eficientemente la información generada en torneos deportivos (participantes, resultados, historial), permitiendo aplicar conceptos fundamentales de bases de datos en un caso práctico y real, con la ventaja de ser un modelo flexible que se adapta a diferentes disciplinas y que puede servir como base para futuros desarrollos de aplicaciones de gestión deportiva.
 
 *¿Que cambios y forma normal se utilizo al normalizar los diagramas de bases de datos?*
+
+
 En el diagrama E-R se realizaron cambios enfocados en eliminar redundancias y mejorar la estructura de las relaciones. Las relaciones muchos a muchos, como entre equipos y jugadores, equipos y entrenadores, y equipos y partidos, fueron transformadas para cumplir con las formas normales. Además, se separó correctamente la entidad torneo de edición, permitiendo una mejor organización de los datos a lo largo del tiempo. También se reorganizó la entidad partido, dejando únicamente atributos propios como fecha y ID, mientras que la participación de equipos y sus puntuaciones se eliminaron. Finalmente, se definieron mejor algunos atributos como el capitán, ubicándolo dentro de la relación correspondiente, logrando así un modelo más claro, sin redundancias y en tercera forma normal.
 
 
